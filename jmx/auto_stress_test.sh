@@ -11,7 +11,8 @@ export os_type=$(uname)
 
 # 需要在系统变量中定义jmeter根目录的位置，如下
 # export jmeter_path="/your jmeter path/"
-export jmeter_path="/usr"
+#export jmeter_path="/usr"
+export jmeter_path="/Applications/apache-jmeter-5.4.3"
 
 echo "自动化压测开始"
 
